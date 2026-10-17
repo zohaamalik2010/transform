@@ -1,0 +1,34 @@
+.img1{
+    transform: translateX(50%);
+}
+.img2{
+transform: scale(0.9);
+}
+.img3{
+    transform: rotate(20deg);
+}
+.img4{
+    transform: skew(20%);
+}
+ body{ 
+    background-color:rgb(200, 236, 127) ;
+}
+.img5{
+    width: 300px;
+    height: 300px;
+    transition: transform;
+    animation-duration: 10s;
+}
+.img5:hover{
+    transform: rotate(360deg);
+}
+
+.donut1{
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(172, 117, 46);
+}
